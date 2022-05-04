@@ -69,3 +69,7 @@ dependencies {
 To run this project you need to download it to your laptop or computer. 
 Check the dependencies and synchronize with the project.
 Create an emulator and run it. After that you can safely run the project.
+
+## API of the project
+https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=979f244184bd4a63a779868896b32b8f
+link to the site of API: https://newsapi.org/
