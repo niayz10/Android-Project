@@ -40,7 +40,7 @@ class NewsDetailed: Fragment() {
         val underline: String = item.url.toString()
         val content = SpannableString(underline)
         content.setSpan(UnderlineSpan(), 0, underline.length, 0)
-        (layout.findViewById(R.id.url) as TextView).text = content
+       // (layout.findViewById(R.id.url) as TextView).text = content
 
         (layout.findViewById(R.id.author) as TextView).text = item.author
 

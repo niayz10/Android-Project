@@ -20,6 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:contentDescription="@string/photo"
+            android:scaleType="centerCrop"
             />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -32,16 +33,16 @@
         app:layout_constraintBottom_toTopOf="@id/body"
         app:layout_constraintVertical_weight="1">
 
-        <TextView
-            android:id="@+id/url"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:gravity="center"
-            android:textColor="#e9eaee"
-            android:layout_marginTop="5dp"
-            android:textSize="10sp"
-            app:layout_constraintBottom_toTopOf="@id/author"
-            app:layout_constraintTop_toTopOf="parent"></TextView>
+<!--        <TextView-->
+<!--            android:id="@+id/url"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="#e9eaee"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:textSize="10sp"-->
+<!--            app:layout_constraintBottom_toTopOf="@id/author"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
 
         <TextView
             android:id="@+id/author"
@@ -49,10 +50,10 @@
             android:layout_height="0dp"
             android:gravity="end"
             android:textColor="#e9eaee"
-            android:textSize="14sp"
+            android:textSize="15sp"
             android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/url"></TextView>
+            app:layout_constraintTop_toBottomOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -73,25 +74,37 @@
             android:textSize="22sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@id/description"
-            app:layout_constraintTop_toTopOf="parent"></TextView>
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            />
 
         <TextView
             android:id="@+id/description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#06B329"
-            android:textSize="14sp"
+            android:textSize="18sp"
             app:layout_constraintBottom_toTopOf="@id/content"
-            app:layout_constraintTop_toBottomOf="@id/title"></TextView>
+            app:layout_constraintTop_toBottomOf="@id/title"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:scrollbars="vertical"
+            android:gravity="center"
+            />
 
         <TextView
             android:id="@+id/content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#e9eaee"
-            android:textSize="14sp"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/description"></TextView>
+            app:layout_constraintTop_toBottomOf="@id/description"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:gravity="center"
+            />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

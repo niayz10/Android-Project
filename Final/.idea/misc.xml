@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/niayz/Desktop/subjects/Android-Project/Final/app/src/main/res/drawable/recycle_bg.xml" value="0.1485" />
+        <entry key="..\:/Users/niayz/Desktop/subjects/Android-Project/Final/app/src/main/res/layout/news_item.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/niayz/Desktop/subjects/Android-Project/Final/app/src/main/res/layout/news_item_detailed.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/niayz/Desktop/subjects/Android-Project/Final/app/src/main/res/layout/recycler_item.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/niayz/Desktop/subjects/Final/app/src/main/res/drawable/layout_bg.xml" value="0.132" />
         <entry key="..\:/Users/niayz/Desktop/subjects/Final/app/src/main/res/drawable/recycle_bg.xml" value="0.1485" />
         <entry key="..\:/Users/niayz/Desktop/subjects/Final/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />

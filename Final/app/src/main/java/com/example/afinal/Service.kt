@@ -19,8 +19,9 @@ class Service {
             .connectTimeout(30, TimeUnit.SECONDS)
             .build()
 
+
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://saurav.tech/NewsAPI/")
+            .baseUrl("https://newsapi.org/v2/")
             .addConverterFactory(GsonConverterFactory.create())
             .client(okHttpClient)
             .build()
